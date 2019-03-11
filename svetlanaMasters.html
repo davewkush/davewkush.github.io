@@ -1,12 +1,17 @@
-<HEAD><SCRIPT Language="Javascript"> <!-- function Randomlink() { Url = new Array; Url[0] = "https://survey.svt.ntnu.no/TakeSurvey.aspx?SurveyID=m8M2868K"; Url[1] = "https://survey.svt.ntnu.no/TakeSurvey.aspx?SurveyID=m8M2858K"; Url[2] = "https://survey.svt.ntnu.no/TakeSurvey.aspx?SurveyID=l2M2976K"; Url[3] = "https://survey.svt.ntnu.no/TakeSurvey.aspx?SurveyID=l2M28o6K"; Url[4] = "https://survey.svt.ntnu.no/TakeSurvey.aspx?SurveyID=p2M299lK"; Url[5] = "https://survey.svt.ntnu.no/TakeSurvey.aspx?SurveyID=p2M29llK";
+<HEAD><SCRIPT Language="Javascript"> function Randomlink() { Url = new Array; 
+
+	Url[0] = "https://survey.svt.ntnu.no/TakeSurvey.aspx?SurveyID=m8M2868K"; 
+	Url[1] = "https://survey.svt.ntnu.no/TakeSurvey.aspx?SurveyID=m8M2858K";
+	Url[2] = "https://survey.svt.ntnu.no/TakeSurvey.aspx?SurveyID=l2M2976K";
+	Url[3] = "https://survey.svt.ntnu.no/TakeSurvey.aspx?SurveyID=l2M28o6K";
+	Url[4] = "https://survey.svt.ntnu.no/TakeSurvey.aspx?SurveyID=p2M299lK";
+	Url[5] = "https://survey.svt.ntnu.no/TakeSurvey.aspx?SurveyID=p2M29llK";
 	
-	Chooselink = Math.round(Math.random() * (Url.length+1)); document.getElementById("demo").innerHTML = "Hello World"; } //--> </SCRIPT>
-	</ HEAD>
+	Chooselink = Math.round(Math.random() * (Url.length+1)); window.open(Url[Chooselink],'_blank'); } </SCRIPT>
+</ HEAD>	
 	<BODY>
-		<button onclick="myFunction()">Click me for Survey Link</button>
-		<p id="demo"></p>
-		
-	</BODY>
+	<A Href="#" onClick=" Randomlink (); return(false)">Click here to go to survey.</A>
+	</ BODY>
 	
 	
 	
