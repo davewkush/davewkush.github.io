@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>
+	<center>
+		<A Href="#" onClick=" Randomlink (); return(false)">Click here to go to survey.</A>
+	</center>
+</h1>
+<SCRIPT Language="Javascript"> function Randomlink() { Url = new Array; 
+	Url[0] = "https://nettskjema.no/a/170082"; 
+	Url[1] = "https://nettskjema.no/a/170089";
+	Url[2] = "https://nettskjema.no/a/170101";
+	Url[3] = "https://nettskjema.no/a/170111";
+  
+	Chooselink = Math.round(Math.random() * (Url.length+1)); window.open(Url[Chooselink],'_blank'); } </SCRIPT>
+
+</body>
+</html>
